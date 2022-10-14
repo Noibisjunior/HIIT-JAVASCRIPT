@@ -131,14 +131,19 @@ const players = [
         sex:'male'
     }
 ]
-let newPlayer = {}
-
-newPlayer = players.map((e) => {
+ 
+let newPlayer ={};
+newPlayer.fullName = players.map((e) => {
+   
     return `${e.firstName}  ${e.lastName}`
-})
+}) 
 console.log(newPlayer);
 }
-
+let names = ['fri','chi','kri','pli','dri']
+let newNames = names.map((e) => {
+return e += 'ies'
+})
+console.log(newNames);
 
 // const language = "JavaScript"
 // const map = Array.prototype.map
@@ -148,7 +153,7 @@ console.log(newPlayer);
 
 // console.log(letters) //  ['J','a','v','a','S','c','r','i','p','t']
 
-
+console.log('2' - '1');
 
 
 
