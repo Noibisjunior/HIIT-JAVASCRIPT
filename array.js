@@ -91,7 +91,7 @@ console.log(polyi);
 
     //filter method
     const result = arr.filter((value,index,Array) => {
-        return value //the return keyword works on the filter method
+        return value //the return keyword works on the filter method and it returns every item in the array
     })
     console.log(result);
 
@@ -108,7 +108,7 @@ return prev + current
 console.log(result3);
 
 }
-//a used case for map method
+//a used case for map  iteration method
 {
 const players = [
     id1={
@@ -155,10 +155,18 @@ console.log(newNames);
 
 console.log('2' - '1');
 
+const num = [2,3,4,5,6,7,78,8,9,3]
+// var letNum = num.reduce((prev,current) => {
+//      return prev + current
+// })
+const newNum = num.map((e) => {
+   return  e += 25;
+})
 
-
-
-
+const addNum = newNum.reduce((prev,current) => {
+    return prev + current
+})
+console.log(newNum,addNum);
 
 
 
