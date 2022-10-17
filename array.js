@@ -137,6 +137,11 @@ newPlayer.fullName = players.map((e) => {
    
     return `${e.firstName}  ${e.lastName}`
 }) 
+newPlayer.country = players.map((e,i,a) => {
+    return a.country = 'Argentina';
+})
+
+
 console.log(newPlayer);
 }
 let names = ['fri','chi','kri','pli','dri']
@@ -153,7 +158,7 @@ console.log(newNames);
 
 // console.log(letters) //  ['J','a','v','a','S','c','r','i','p','t']
 
-console.log('2' - '1');
+
 
 const num = [2,3,4,5,6,7,78,8,9,3]
 // var letNum = num.reduce((prev,current) => {
