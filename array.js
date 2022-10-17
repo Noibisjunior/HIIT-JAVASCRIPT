@@ -184,11 +184,52 @@ console.log(newNum,addNum);
 //console.log(final);
 //cars[1] = 'noibi'
 
+// used case for filter  array method
+// first used case filter all repeated number
+const numb = [2,3,4,5,6,7,7,8,8,9,9,9,4,5,3,,5,6,7,9,2]
+const validNumb = numb.filter((e,i) => {
+   return numb.indexOf(e) === i
+})
+console.log(validNumb);
 
+const sports = [
+  id1 = {
+    firstName: 'Lionel',
+    lastName: 'Messi',
+    age: 25,
+    sex: 'male',
+  },
+  id2 = {
+    firstName: 'Cristiano',
+    lastName: 'Ronaldo',
+    age: 30,
+    sex: 'female',
+  },
+  id3 = {
+    firstName: 'mikel',
+    lastName: 'obi',
+    age: 18,
+    sex: 'male',
+  },
+  id4 = {
+    firstName: 'mikel',
+    lastName: 'obi',
+    age: 14,
+    sex: 'male',
+  },
+  id3 = {
+    firstName: 'mikel',
+    lastName: 'obi',
+    age: 17,
+    sex: 'male',
+  },
+];
 
+const validSport = sports.filter((e) => {
+ return e.age >= 18 && e.sex !== 'female'
 
-
-
+})
+console.log(validSport);
 
 
 
