@@ -226,13 +226,9 @@ const sports = [
 ];
 
 const validSport = sports.filter((e) => {
- return e.age >= 18 && e.sex !== 'female'
-
+  return e.age > 18 && e.sex !== 'female'
 })
 console.log(validSport);
-
-
-
 
 
 
