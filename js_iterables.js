@@ -19,6 +19,12 @@ for (let x of pairs){
     console.log(x);
 }
 
+const val = [...Array(100).keys()];
+const resultss = values.filter((values) => values > 50);
+console.log(resultss);
+
+const compare = resultss.sort((a,b) => a - b)
+console.log(compare);
 
 
 

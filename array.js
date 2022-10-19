@@ -270,4 +270,6 @@ const values = [10, 15, 20, 25, 30, 35, 40, 45, 50, 67, 89, 67, 100];
 const results = values.filter((values) => values > 50);
 console.log(results);
 
+const sort = results.sort((a,b) => a-b)
+console.log(sort);
 
