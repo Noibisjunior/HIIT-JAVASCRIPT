@@ -229,12 +229,45 @@ const validSport = sports.filter((e) => {
   return e.age > 18 && e.sex !== 'female'
 })
 console.log(validSport);
+const fruits = ['banana','apple','orange','banana','orange','grapes']
+const main = fruits.filter((value,index) => fruits.indexOf(value) === index)
+console.log(main);
 
 
+//reduce right arrayiteration method
+const a =[2,3,45,6]
+const z = ['ade','kola','abdul']
+const b = a.reduceRight((prev,curr) => 
 
+curr + prev
+);
+console.log(b);
 
+//array.every
+const c = a.every((value) => value > 0)
+console.log(c);
 
+//array.some
+const d =a.some((value) => value > 3)
+console.log(d);
 
+//using filter to get the values
+const e = a.filter((value) => value > 3)
+console.log(e);
 
+//index of
+const f = z.indexOf('kola',1)
+console.log(f);
+
+//array.find
+const g = a.find((value) => value > 18);
+console.log(g);
+
+//array.from() is a modern way of converting strings into array
+console.log(Array.from('kolasjunior'));
+
+const values = [10, 15, 20, 25, 30, 35, 40, 45, 50, 67, 89, 67, 100];
+const results = values.filter((values) => values > 50);
+console.log(results);
 
 
