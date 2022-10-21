@@ -107,7 +107,7 @@
 
 
 
-// padding
+// padding method
 // let letter = '10';
 // let result = letter.padStart(7, '*');
 // console.log(result);

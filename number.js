@@ -36,14 +36,3 @@ console.log(q.toPrecision());
 let k = parseFloat('10.6');
 console.log(typeof(k));
 
-
-
-
-
-
-
-
-
-
-
-
