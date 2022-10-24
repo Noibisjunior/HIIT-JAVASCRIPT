@@ -1,5 +1,5 @@
-// SET is a new method of declarin an array
-// let set = new Set(['apple','orang','banana'])
+// SET is a new method of declaring an array
+// let set = new Set(['apple','orange','banana'])
 // set.add('grape')
 
 // set.forEach((value) => {console.log(value)
@@ -33,17 +33,17 @@ console.log(x.toString(5)); //using string method
 console.log(typeof(x));
 
 //JAVASCRIPT BITWISE
-//AND OPERATOR(&&)
+//AND OPERATOR(&&) both condition must be true before code execution
 // 1,0 = 0
 // 0,0 = 0
 // 1,1 = 1
 
-//OR OPERATOR(||)
+//OR OPERATOR(||) one of the condition must be true before code execution
 // 1,0 = 1
 //1,1 = 1
 //0,0 = 0
 
-// //XOR operator(^)
+// //XOR operator(^)condition must be opposite before code can be  executed
 // 1,1 = 0
 // 1,0 = 1
 // 0,0 = 0
@@ -53,7 +53,7 @@ console.log(typeof(x));
 
 let text = 'visit mySchool'
 let n = text.search(/myschool/i)//output the index of the search value
-let replace = text.replace(/visit/i,'checkout')//replace value in the regular expression
+let replace = text.replace(/visit/i,'checkout')//replace (myschool) in the regular expression
 console.log(text,replace);
 
 
@@ -78,11 +78,3 @@ try {
 catch(err){
     throw('there is a bug in the code')
 }
-
-
-
-
-
-
-
-
