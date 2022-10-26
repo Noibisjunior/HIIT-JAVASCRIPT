@@ -67,6 +67,7 @@ try {
 } catch (err) {
     console.log(err.message,err.name);
 }
+
 finally{
     console.log('code is working');
 }
