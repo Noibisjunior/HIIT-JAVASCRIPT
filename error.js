@@ -14,7 +14,7 @@
 
 //Type error
 // let n = 1
-// n.toUpperCase() // n is not a string 
+// n.toUpperCase() // n is not a string
 // console.log(n);
 
 //scope
@@ -48,40 +48,42 @@
 
 //this keyword
 {
-    const person = {
-        firstName : 'kola',
-        lastName : 'juniors',
-
-    }
+  const person = {
+    firstName: 'kola',
+    lastName: 'juniors',
+    fullName: () => {
+      return this.firstName + ' ' +  this.lastName;
+    },
+  };
+  console.log(person.fullName());
 }
 
+//regular function
+function k (x){
+return x * 5
+}
+console.log(k(5))
 
+//Arrow function
+k = (x) => {
+return x * 10
+}
+console.log(k(5));
 
+k = (x) =>  x * 10;
+console.log(k(5));
 
+// concat string with arrow function
+// let strin = 'this'
+// j = () =>  strin += ' is a string'
+// console.log(j());
 
+//adding items into the array usin arrow function and spread operator
+// let arr = []
+// out = () =>   arr = [...arr,'kolas','junior','lola']
 
+// console.log(out());
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// myFunc = x => x + 3
+// console.log(myFunc(5));
 
