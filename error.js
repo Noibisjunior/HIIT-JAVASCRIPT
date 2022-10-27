@@ -78,7 +78,7 @@ console.log(k(5));
 // j = () =>  strin += ' is a string'
 // console.log(j());
 
-//adding items into the array usin arrow function and spread operator
+//adding items into the array using arrow function and spread operator
 // let arr = []
 // out = () =>   arr = [...arr,'kolas','junior','lola']
 
